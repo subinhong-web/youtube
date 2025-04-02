@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 56px;
+    padding: 0 32px;
 }
 
 .header_left
@@ -42,7 +43,7 @@ header {
     border-radius: 24px 0 0 24px;
 }
 
-.search_icon {
+.search {
     width: 64px;
     height: 40px;
     padding: 6px;
@@ -53,7 +54,7 @@ header {
     cursor: pointer;
 }
 
-.voice_icon {
+.voice {
     width: 47px;
     height: 40px;
     padding: 8px;
@@ -63,8 +64,38 @@ header {
     margin-left: 8px;
 }
 
+.header_right {
+    gap: 8px;
+}
+
 .header_making {
     display: flex;
-    width: 100px;
+    align-items: center;
+    padding: 8px;
+    background: #f1f1f1;
+    border-radius: 24px;    
+}
+
+.header_making > button {
+    background: #f1f1f1;
+    border: none;
+}
+
+.header_making > span {
+    margin-bottom: 4px;
+    padding-right: 4px;
+    font-size: 14px;
+}
+
+.bell,
+.profile_img {
+    background: none;
+    border: none;
+}
+
+.profile_img img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
 
