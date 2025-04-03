@@ -212,3 +212,24 @@ header,
 div.more {
     padding: 0;
 }
+
+.video_discription {
+    padding: 12px;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.video_discription > h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.video_discription > h2 > span {
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+.video_discription > p {
+    margin: 4px 0;
+}
